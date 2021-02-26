@@ -1,8 +1,10 @@
 # use-my-ghp-lib
 
-> test project to use the [@erkobridee/my-ghp-lib](https://github.com/erkobridee/my-ghp-lib) from the GitHub Packages
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Goal
+
+test project to use the [@erkobridee/my-ghp-lib](https://github.com/erkobridee/my-ghp-lib) from the GitHub Packages
 
 ## Project setup
 
@@ -22,12 +24,14 @@ next dev
 
 - development: `npm start` - ( http://localhost:3000 )
 
-## Learn More
+## Documentation
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js](docs/nextjs.md)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- GitHub
 
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - [GitHub Packages](docs/github-packages.md)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  - [GitHub Action](docs/github-actions.md)
+
+- [Dev environment known issues](docs/dev-env-known-issues.md)
