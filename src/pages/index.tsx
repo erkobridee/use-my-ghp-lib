@@ -2,7 +2,18 @@ import * as React from 'react';
 
 import Head from 'next/head';
 
+import lib from '@erkobridee/my-ghp-lib';
+import math from '@erkobridee/my-ghp-lib/math';
+
 import styles from 'styles/Home.module.css';
+
+console.log(lib.libraryName);
+
+console.log(`3 - 2 = ${math.subtract(3, 2)}`);
+
+console.log(`1 + 2 + 3 = ${math.add(1, 2, 3)}`);
+
+console.log(`5 - 1 = ${lib.math.subtract(5, 1)}`);
 
 export const Home = () => (
   <div className={styles.container}>
@@ -18,7 +29,7 @@ export const Home = () => (
 
       <p className={styles.description}>
         Get started by editing{' '}
-        <code className={styles.code}>pages/index.js</code>
+        <code className={styles.code}>src/pages/index.js</code>
       </p>
 
       <div className={styles.grid}>
