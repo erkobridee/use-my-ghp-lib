@@ -20,6 +20,37 @@ touch tsconfig.json
 next dev
 ```
 
+### Configuring npm for use with GitHub Packages
+
+> **TODO:** create a [GITHUB_PAT](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) with the access to only read packages
+>
+> [Configuring npm for use with GitHub Packages | GitHub Docs](https://docs.github.com/en/packages/guides/configuring-npm-for-use-with-github-packages)
+
+There are 2 possible ways to access and use packages from the GitHub packages
+
+#### .npmrc
+
+> useful to use on CI/CD pipelines
+
+```
+//npm.pkg.github.com/:_authToken=${GITHUB_PAT}
+
+@erkobridee:registry=https://npm.pkg.github.com/
+```
+
+#### login into the GitHub Packages
+
+> recommended on the developer machine, this will add the access to the global .npmrc file
+
+```
+$ npm login --scope=@erkobridee --registry=https://npm.pkg.github.com
+
+> Username: USERNAME
+> Password: GITHUB_PAT
+> Email: PUBLIC-EMAIL-ADDRESS
+
+```
+
 ## CLI commands
 
 - development: `npm start` - ( http://localhost:3000 )
@@ -35,3 +66,9 @@ next dev
   - [GitHub Action](docs/github-actions.md)
 
 - [Dev environment known issues](docs/dev-env-known-issues.md)
+
+## Useful reference
+
+- [Private NPM Packages with GitHub Actions & Packages | Brian Morrison II](https://brianmorrison.me/blog/private-npm-packages-with-github-actions-&-packages/)
+
+  - [[YouTube] Private NPM Packages using GitHub Actions & Packages](https://www.youtube.com/watch?v=7CNC0QBCY-Y) - 2020/09/29
