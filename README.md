@@ -80,3 +80,9 @@ $ npm login --scope=@erkobridee --registry=https://npm.pkg.github.com
 - [[GitHub] erkobridee/nextjs-ssg-hello](https://github.com/erkobridee/nextjs-ssg-hello)
 
 - [Going Truly Serverless with Next.js Static Site Generation](https://zzzachzzz.github.io/blog/going-truly-serverless-with-nextjs-static-site-generation) - 2021/02/20
+
+---
+
+- [[GitHub Action] Cancel Workflow Action](https://github.com/marketplace/actions/cancel-workflow-action)
+
+- [GitHub Actions: Manual triggers with workflow_dispatch | GitHub Blog](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/) - 2020/06/06
