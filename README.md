@@ -73,6 +73,8 @@ $ npm login --scope=@erkobridee --registry=https://npm.pkg.github.com
 
   - [[YouTube] Private NPM Packages using GitHub Actions & Packages](https://www.youtube.com/watch?v=7CNC0QBCY-Y) - 2020/09/29
 
+- [Github Actions with private package (Github Package Registry or NPM) | charliejwalter.net](https://charliejwalter.net/github-actions-with-private-package-github-package-registry-or-npm/) - 2020/03/31
+
 - [Deploying a Next.js app to GitHub Pages - DEV Community 👩‍💻👨‍💻](https://dev.to/jameswallis/deploying-a-next-js-app-to-github-pages-24pn) - 2020/02/26
 
 - [[GitHub] erkobridee/nextjs-ssg-hello](https://github.com/erkobridee/nextjs-ssg-hello)
