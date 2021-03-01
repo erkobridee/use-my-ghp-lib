@@ -78,5 +78,3 @@ $ npm login --scope=@erkobridee --registry=https://npm.pkg.github.com
 - [Deploying a Next.js app to GitHub Pages - DEV Community 👩‍💻👨‍💻](https://dev.to/jameswallis/deploying-a-next-js-app-to-github-pages-24pn) - 2020/02/26
 
 - [[GitHub] erkobridee/nextjs-ssg-hello](https://github.com/erkobridee/nextjs-ssg-hello)
-
-<!-- ??? -->

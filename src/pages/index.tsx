@@ -7,14 +7,6 @@ import math from '@erkobridee/my-ghp-lib/math';
 
 import styles from 'styles/Home.module.css';
 
-console.log(lib.libraryName);
-
-console.log(`3 - 2 = ${math.subtract(3, 2)}`);
-
-console.log(`1 + 2 + 3 = ${math.add(1, 2, 3)}`);
-
-console.log(`5 - 1 = ${lib.math.subtract(5, 1)}`);
-
 export const Home = () => (
   <div className={styles.container}>
     <Head>
