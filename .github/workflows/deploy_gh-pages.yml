@@ -19,7 +19,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@erkobridee'
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.READ_GITHUB_PACKAGES }}
 
       - name: Install Node.js dependencies
         run: npm ci
