@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "lib-on-nodejs": "node scripts/run-lib-on-node.js",
     "next:dev": "next dev",
     "next:build": "next build",
     "next:start": "next start",
