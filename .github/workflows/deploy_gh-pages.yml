@@ -15,11 +15,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-          always-auth: true
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@erkobridee'
+
+      - name: Configure to use GitHub Packages
+        run: |
+          echo -e "//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}" >> .npmrc
+          echo -e "@erkobridee:registry=https://npm.pkg.github.com/" >> .npmrc
+          echo -e "always-auth=true" >> .npmrc
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.READ_GITHUB_PACKAGES }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install Node.js dependencies
         run: npm ci
