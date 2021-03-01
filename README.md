@@ -72,3 +72,7 @@ $ npm login --scope=@erkobridee --registry=https://npm.pkg.github.com
 - [Private NPM Packages with GitHub Actions & Packages | Brian Morrison II](https://brianmorrison.me/blog/private-npm-packages-with-github-actions-&-packages/)
 
   - [[YouTube] Private NPM Packages using GitHub Actions & Packages](https://www.youtube.com/watch?v=7CNC0QBCY-Y) - 2020/09/29
+
+- [Deploying a Next.js app to GitHub Pages - DEV Community 👩‍💻👨‍💻](https://dev.to/jameswallis/deploying-a-next-js-app-to-github-pages-24pn) - 2020/02/26
+
+- [[GitHub] erkobridee/nextjs-ssg-hello](https://github.com/erkobridee/nextjs-ssg-hello)
