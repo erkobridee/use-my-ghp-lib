@@ -15,8 +15,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
+          always-auth: true
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@erkobridee'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: npm ci
+      - name: Install Node.js dependencies
+        run: npm ci
 
       - run: npm run ci --if-present
         env:
