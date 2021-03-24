@@ -86,3 +86,9 @@ $ npm login --scope=@erkobridee --registry=https://npm.pkg.github.com
 - [[GitHub Action] Cancel Workflow Action](https://github.com/marketplace/actions/cancel-workflow-action)
 
 - [GitHub Actions: Manual triggers with workflow_dispatch | GitHub Blog](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/) - 2020/06/06
+
+### GitHub Action know issue
+
+- [Github package registry - Private package not found](https://github.community/t/github-package-registry-private-package-not-found/14500)
+
+> to solve the issue, use a GitHub PAT to be able to download the packages from GitHUb Packages
