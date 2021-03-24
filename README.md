@@ -91,4 +91,4 @@ $ npm login --scope=@erkobridee --registry=https://npm.pkg.github.com
 
 - [Github package registry - Private package not found](https://github.community/t/github-package-registry-private-package-not-found/14500)
 
-> to solve the issue, use a GitHub PAT to be able to download the packages from GitHUb Packages
+> if you're consumir a GitHub package from a different account or from a GitHub organization, you'll need to have a GitHub Personal Access Token from there with the rights to read GitHub Packages
