@@ -22,7 +22,7 @@
     "deploy": "run-s build nojekyll gh-deploy"
   },
   "dependencies": {
-    "@erkobridee/my-ghp-lib": "0.0.9",
+    "@erkobridee/my-ghp-lib": "^0.1.0",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1"
