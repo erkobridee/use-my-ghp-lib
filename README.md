@@ -42,7 +42,7 @@ There are 2 possible ways to access and use packages from the GitHub packages
 
 > recommended on the developer machine, this will add the access to the global .npmrc file
 
-```
+```sh
 $ npm login --scope=@erkobridee --registry=https://npm.pkg.github.com
 
 > Username: USERNAME
