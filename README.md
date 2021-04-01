@@ -49,6 +49,7 @@ $ npm login --scope=@erkobridee --registry=https://npm.pkg.github.com
 > Password: GITHUB_PAT
 > Email: PUBLIC-EMAIL-ADDRESS
 
+$ echo "@erkobridee:registry=https://npm.pkg.github.com/" >> ~/.npmrc
 ```
 
 ## CLI commands
