@@ -92,4 +92,4 @@ $ echo "@erkobridee:registry=https://npm.pkg.github.com/" >> ~/.npmrc
 
 - [Github package registry - Private package not found](https://github.community/t/github-package-registry-private-package-not-found/14500)
 
-> if you're consumir a GitHub package from a different account or from a GitHub organization, you'll need to have a GitHub Personal Access Token from there with the rights to read GitHub Packages
+> if you're consuming a GitHub package from a different account or from a GitHub organization, you'll need to have a GitHub Personal Access Token from there with the rights to read GitHub Packages
